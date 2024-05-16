@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script src="java/jquery.js"></script>
+        <script src="java/index.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <title>News e Notizie di Verona | L'Arena - Il Giornale di Verona</title>
+        <link rel="icon" type="image/x-icon" href="img/fav.png">
+    </head>
+    <body class="container-fluid">
+        <div class="tablet" style="height: 90px;"></div>
+        <nav class="row nav_container">
+            <div id="top_menu" class="col-md-12 tablet" style="padding: 0;">
+                <div class="container-fluid">
+                    <div class="row mobile_nav d-flex justify-content-evenly btn_nav_mobile">
+                        <div class="col-3 mobile_hide">
+                            <span>Edizione digitale</span>
+                        </div>
+                        <div class="col-2">
+                            <span>Newsletter</span>
+                        </div>
+                        <div class="col-2">
+                            <span>Segnala</span>
+                        </div>
+                        <div class="col-2">
+                            <span>Necrologie</span>
+                        </div>
+                        <div class="col-3">
+                            <button class="btn_abbonati">Abbonati</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12" style="padding: 0;">
+                <div class="container-fluid">
+                    <div class="row nav_style desktop">
+                        <div class="col-md-8 start_row " >
+                            <img class="hamb_nav nav_rialzo" src="img/hamburger.png" alt="menù">
+                            <img class= "logo_nav nav_rialzo" src="img/logo_nav.svg" alt="logo">
+
+                            <div class="conteiner_elemento_nav nav_rialzo articoli_nav">
+                                <img class= "news_nav " src="img/giornale.png" alt="giornale">
+                                <a class="elemento_nav " title="Sfoglia l'edizione digitale" href="https://edicola.larena.it/newsstand/" > Edizione digitale</a>
+                            </div>
+
+                            <div class="conteiner_elemento_nav separatore_nav  ">
+                                <div class="nav_rialzo articoli_nav">
+                                    <img class= "lettera_nav " src="img/lettera.png" alt="lettera">
+                                    <a class="elemento_nav  " href="https://www.larena.it/spazio-lettori/newsletter">Newsletter</a>
+                                </div>
+
+                            </div>
+
+                            <div class="conteiner_elemento_nav separatore_nav articoli_nav">
+                                <div class="nav_rialzo">
+                                    <img class= "whatsapp_nav " src="img/whatsapp.png" alt="whatsapp">
+                                    <a class="elemento_nav " title="Segnala al quotidiano" href="https://www.larena.it/spazio-lettori/whatsapp"> Segnala</a>
+                                </div>
+
+                            </div>
+
+                            <div class="conteiner_elemento_nav separatore_nav articoli_nav ">
+                                <div class="nav_rialzo">
+                                    <a class="elemento_nav " title="Vedi i necrologi" href="https://www.larena.it/spazio-lettori/necrologi" class="text">Necrologie</a>
+                                </div>
+
+                            </div>
+
+                            <div class="conteiner_elemento_nav separatore_nav articoli_nav">
+                                <div class="nav_rialzo">
+                                    <a class="elemento_nav " href="#" class="text" data-action="modal-open" data-modal="#user-dialog">Accedi</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 end_row">
+                            <img class= "img_facebook_nav " src="img/icons8-facebook-50.png" alt="facebook">
+                            <img class= "img_instagram_nav " src="img/instagram.png" alt="instagram">
+                            <img class= "img_twitter_nav " src="img/twitter.svg" alt="twitter">
+                            <button class="btn_abbonati nav_rialzo" type="button">Abbonati</button>
+
+                        </div>
+                    </div>
+                    <div class="row nav_style tablet">
+                        <div class="col-md-12 tablet_nav" >
+                            <img class="hamb_nav nav_rialzo" src="img/hamburger.png" alt="menù">
+
+                            <img src="img/header-inverted.svg" alt="logo" width="128">
+
+                            <svg width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M399 384.2C376.9 345.8 335.4 320 288 320H224c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z"/></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </nav>
+
+        <div class="row d-flex justify-content-center" id="firstrow" >
+
+            <div class="col-md-12 container_grey" >
+                <div class="container mobile_hide">
+                    <div class="row">
+                        <div style=" border-bottom: 3px solid black; cursor: pointer;" class="col-md-12 header_title">
+                            <div class="rialzo" style="position: relative; display: flex; align-items: center; justify-content: start;">
+                                <img  src="img/pioggia.png" alt="pioggia">
+                                <h1 style="font-family: 'meteo', sans-serif;">9°</h1>
+                                <span class="tablet_hide" style="font-family: 'meteo', sans-serif;"> <b>Verona</b></span>
+                            </div>
+                            <img class="logo_top" style="margin: 10px 0;" src="img/arena.png" alt="L'Arena">
+                            <span style="position: relative; display: flex; align-items: end; justify-content: end; font-family: 'meteo', sans-serif; font-size: 13px;"><b id="data_estesa" class="tablet_hide">Martedì, 23 aprile 2024</b> <b id="data_contratta" class="tablet">23/04/2024</b> </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                       <div class="row">
+                           <div class="col-md-12" style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; ">
+                               <div class= "btn1" >
+                                   <svg class="stella" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                   <span style="margin: 4px"> CINEMA</span>
+                               </div>
+
+                               <div class="btn2" >
+                                   <span class="slash">///</span>
+                                   <span style="margin: 4px" >APPROFONDIMENTI</span>
+                               </div>
+
+                               <div class="btn3">
+                                   <svg class="stella2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                   <span style="margin: 4px"> SPORT</span>
+                               </div>
+
+                               <div class="btn2 mobile_hide" >
+                                   <span class="slash">///</span>
+                                   <span style="margin: 4px" >HELLAS</span>
+                               </div>
+
+                               <div class="btn2" >
+                                   <span class="slash">///</span>
+                                   <span style="margin: 4px" >CALCIO</span>
+                               </div>
+
+                               <div class="btn4">
+                                   <svg class="stella3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                   <span style="margin: 4px"> FILOBUS</span>
+                               </div>
+
+
+                           </div>
+
+                       </div>
+
+                       <div class="row">
+                           <div class="col-md-12" style="border-bottom: 1px solid black; margin: 1px "></div>
+
+                       </div>
+
+                       <div class="row">
+                           <div class="col-lg-8" style="padding-bottom: 10px ">
+                               <div class="container-fluid">
+                                   <div class="row ">
+                                       <div class="col-md-12" style=" padding: 0;display: flex; flex-direction: column; margin:  15px 0; background-color: white;">
+                                           <div style=" margin-left:20px;display: flex; flex-direction: row;  align-items: center; ">
+                                               <h6 style="color: #073E7C; padding-bottom: 2px;"> /// </h6>
+                                               <h6 style="padding: 5px">DANNI ALLE STRUTTURE E RUBERIE</h6>
+                                           </div>
+
+                                           <div class="articoli" style="font-family: 'meteo',sans-serif; ">
+                                               <h1 style="margin-left: 20px">Bar nel mirino dei malviventi: l'ultima spaccata a Veronetta</h1>
+                                           </div>
+
+                                           <div style="margin-left: 20px">
+                                               <h6>di Alessandra Vaccari</h6>
+                                           </div>
+
+                                           <img style="max-width: 100%; width:100%; height:auto; object-fit: cover; cursor:pointer;" src="https://picsum.photos/id/40/579/324" alt="image">
+                                       </div>
+                                   </div>
+
+                                   <div class="row">
+                                       <div class="col-md-6 nopadding_left" style="margin: 25px 0;" >
+                                           <div style="color: white; background-color: #073E7C;">
+                                               <div style=" display: flex; flex-direction: column; cursor: pointer;">
+                                                   <img src="https://picsum.photos/id/36/270/152" alt="articolo2">
+                                               </div>
+
+                                               <div style=" margin: 5px; padding: 0 10px; display: flex;flex-direction: row;align-items: center;">
+                                                   <h6 style="padding-bottom: 2px"> /// </h6>
+                                                   <h6 style="padding: 5px">IL CASO</h6>
+                                               </div>
+
+                                               <div class="articoli" style="font-family: meteo,sans-serif; padding: 0 10px">
+                                                   <h5>Freddo in aula, si allarga la protesta nelle scuole veronesi</h5>
+                                               </div>
+
+                                               <div style="padding: 0 0px 10px 10px">
+                                                   <h6>di Redazione web</h6>
+                                               </div>
+
+                                           </div>
+                                       </div>
+
+                                       <div class="col-md-6 nopadding_right" style="margin: 25px 0;">
+
+                                           <div style="color: white; background-color: #073E7C; ">
+                                               <div style=" display: flex; flex-direction: column; cursor: pointer;">
+                                                   <img src="https://picsum.photos/id/50/270/152" alt="articolo2">
+                                               </div>
+
+                                               <div style=" margin: 5px; padding: 0 10px; display: flex;flex-direction: row;align-items: center;">
+                                                   <h6 style="padding-bottom: 2px;" > ///</h6>
+                                                   <h6 style="padding: 5px"> BRENZONE</h6>
+                                               </div>
+
+                                               <div class="articoli" style="font-family: meteo,sans-serif; padding: 0 10px">
+                                                   <h5>Brucia una palazzina, vigili del fuoco al lavoro tutta la notte</h5>
+                                               </div>
+
+                                               <div style="padding: 0 0 10px 10px">
+                                                   <h6>di Riccardo Verzè</h6>
+                                               </div>
+
+                                           </div>
+
+                                       </div>
+                                   </div>
+
+                                   <div class="row">
+                                       <div class="col-md-12">
+                                           <div class="container nopadding_right nopadding_left">
+                                               <div class="row ">
+                                                   <div class="col-md-12 nopadding_left " style="background-color:white; display: flex; flex-direction: row;align-items: center;justify-content: center;margin: 25px 0;">
+                                                       <img style="cursor: pointer;" src="https://picsum.photos/id/61/293/165" alt="articolo 3">
+                                                       <div >
+                                                           <h6 style="margin: 5px; padding: 0 10px;">/// COPERNICO E VERONA FABLAB</h6>
+                                                           <h5 class="articoli" style="font-family: meteo, sans-serif; padding: 0 10px;">Bee Hive, il carica cellulare creato dagli studenti per i migranti della rotta balcanica</h5>
+                                                           <h6 style=" padding: 0 10px;">di Laura Perina</h6>
+                                                       </div>
+
+                                                   </div>
+
+                                               </div>
+
+                                           </div>
+                                       </div>
+                                   </div>
+
+                                   <div class="row">
+                                       <div class="col-md-6 nopadding_left" style="margin: 25px 0;" >
+                                           <div style="color: black; background-color: white;">
+                                               <div style=" display: flex; flex-direction: column; cursor: pointer;">
+                                                   <img src="https://picsum.photos/id/29/270/152" alt="articolo2">
+                                               </div>
+
+                                               <div style=" margin: 5px; padding: 0 10px;display: flex; flex-direction: row;align-items: center;">
+                                                   <h6 style="color: #073E7C"> /// </h6>
+                                                   <h6 style="padding: 5px"> STAZIONE DI PORTA NUOVA</h6>
+                                               </div>
+
+                                               <div class="articoli" style="font-family: meteo,sans-serif; padding: 0 10px">
+                                                   <h5>Ruba un trolley su un treno e tenta di fuggire su un bus: giovane arrestato </h5>
+                                               </div>
+
+                                               <div style="padding: 0 0 10px 10px">
+                                                   <h6>di Ferruccio Barese</h6>
+                                               </div>
+                                           </div>
+                                       </div>
+
+                                       <div class="col-md-6 nopadding_right" style="margin: 25px 0;">
+
+                                           <div style="color: black; background-color: white; ">
+                                               <div style=" display: flex; flex-direction: column; cursor: pointer;">
+                                                   <img src="https://picsum.photos/id/71/270/152" alt="articolo2">
+                                               </div>
+
+                                               <div style=" margin: 5px; padding: 0 10px;display: flex; flex-direction: row;align-items: center;">
+                                                   <h6 style="color: #46B497"> /// </h6>
+                                                   <h6 style="padding: 5px">RINCARI</h6>
+                                               </div>
+
+                                               <div class="articoli" style="font-family: meteo,sans-serif; padding: 0 10px">
+                                                   <h5>Telepass raddoppia il costo del canone mensile: ecco le alternative</h5>
+                                               </div>
+
+                                               <div style="padding: 0 0 10px 10px">
+                                                   <h6>di Giorgia Cozzolino</h6>
+                                               </div>
+
+                                           </div>
+
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+
+                           <div class="col-lg-4">
+                               <div class="container">
+                                   <div class="row">
+                                       <div class="col-md-12  nopadding_left" style="padding-top: 30px;">
+                                           <h3 class="articoli" style="color: #073E7C; font-family: meteo,sans-serif; ">Prima Pagina</h3>
+                                       </div>
+                                   </div>
+
+                                   <div class="row " style="padding-top: 55px;">
+                                       <div class="col-md-12 " style="background-color: #E7E4E4; display: flex; justify-content: center;flex-direction: column;padding-left: 30px;padding-right: 30px;padding-bottom: 25px; ">
+                                           <img class="sbalzo" style="cursor: pointer;" src="img/primapagina.jpeg" alt="Prima pagina">
+                                           <h5 style="font-family: meteo,sans-serif; margin-top: -20px">La prima pagina di oggi</h5>
+                                       </div>
+                                   </div>
+
+                                   <div class="row" style="padding-top: 70px;">
+                                       <div class="col-md-12" style="background-color: #333333; display: flex; justify-content: center; flex-direction: column; padding-left: 30px;padding-right: 30px; padding-bottom: 25px;">
+                                            <img class="sbalzo" style="cursor: pointer;" src="img/arena_sport.jpeg" alt="Arena sport">
+                                            <img class="sbalzo" style="cursor: pointer;" src="img/verona.jpeg" alt="Hellas Verona">
+                                            <h5 class="articoli" style="font-family: meteo,sans-serif; margin-top: -20px; color: white;">Baroni guarda alla Lazio: "Dovremo essere essenziali"</h5>
+                                       </div>
+                                   </div>
+
+                                   <div class="row" style="padding-top: 70px">
+                                       <div class="col-md-12" style="background-color: #E7E4E4; display: flex; justify-content: center; flex-direction: column; padding-left: 30px;padding-right: 30px; padding-bottom: 25px;">
+                                            <img class="sbalzo" style="cursor: pointer;" src="https://picsum.photos/id/90/248/139" alt="Venezia">
+                                           <div style="display: flex; flex-direction: row;align-items: center; margin-top: -20px">
+                                               <h6 style="color: #073E7C; padding-bottom: 5px;">///</h6>
+                                               <h6 style="padding-left: 5px;">VENETO</h6>
+                                           </div>
+                                           <h5 CLASS="articoli" style="font-family: meteo,sans-serif;">Venezia, primo giorno di ticket: 80mila registrati, ma solo 1 su 10 deve pagare </h5>
+                                       </div>
+                                   </div>
+
+                                   <div class="row" style="padding-top: 70px">
+                                       <div class="col-md-12" style="background-color: #E7E4E4; display: flex; justify-content: center; flex-direction: column; padding-left: 30px;padding-right: 30px; padding-bottom: 25px;">
+                                           <img class="sbalzo" style="cursor: pointer;" src="https://picsum.photos/id/100/248/139" alt="evento">
+                                           <div style="display: flex; flex-direction: row;align-items: center; margin-top: -20px">
+                                               <h6 style="color: #073E7C; padding-bottom: 5px;">///</h6>
+                                               <h6 style="padding-left: 5px;">COSA FARE  A VERONA</h6>
+                                           </div>
+                                           <h5 CLASS="articoli" style="font-family: meteo,sans-serif;">Holi, il Festival dei colori fa tappa all'antica Fiera di San Marco</h5>
+                                       </div>
+                                   </div>
+
+                               </div>
+                           </div>
+                       </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 nopadding_left nopadding_right" style="background-color: #333333; ">
+                                <div class="container">
+                                    <div class="row" style="padding-bottom: 15px; padding-right: 30px;">
+
+                                        <div class="col-lg-3" style=" display: flex; flex-direction: column;" >
+                                            <h3  style="display: flex;flex-direction: row;align-items: center;padding-left: 30px;padding-top: 30px;">
+                                                <span class="parallelepipedo">&nbsp;&nbsp;&nbsp;</span>
+                                                <span  style="font-family: meteo,sans-serif; color: white; padding-left: 15px;">Rubriche</span>
+                                            </h3>
+                                             <div style="display: flex;flex-direction: column;padding-left: 30px;">
+                                                <img style="cursor: pointer;" src="https://picsum.photos/id/200/220/123" alt="rubrica">
+                                                 <div style="position: relative;">
+                                                     <h5 class="skew-title">SPETTACOLI</h5>
+                                                 </div>
+
+                                                <h5 class="articoli" style="background-color: white;font-family: meteo,sans-serif;word-break: break-word;padding-top: 20px; padding-left: 10px;padding-bottom: 10px;">Il Maestro Bonato debutta in Perù nel segno di Puccini</h5>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3" style=" display: flex; flex-direction: column; padding-top: 70px;" >
+                                            <div style="display: flex;flex-direction: column;padding-left: 30px;">
+                                                <img style="cursor: pointer;" src="https://picsum.photos/id/291/220/123" alt="rubrica">
+                                                <div style="position: relative;">
+                                                    <h5 class="skew-title">SALUTE & BENESSERE</h5>
+                                                </div>
+
+                                                <h5 class="articoli" style="background-color: white;font-family: meteo,sans-serif;word-break: break-word;padding-top: 20px; padding-left: 10px;padding-bottom: 10px;">Lo Spisal dell'Ulss 9: «Infortuni sul lavoro, in calo»</h5>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3" style=" display: flex; flex-direction: column; padding-top: 70px;" >
+                                            <div style="display: flex;flex-direction: column;padding-left: 30px;">
+                                                <img style="cursor: pointer;" src="https://picsum.photos/id/299/220/123" alt="rubrica">
+                                                <div style="position: relative;">
+                                                    <h5 class="skew-title">ANIMALI & CO</h5>
+                                                </div>
+
+                                                <h5 class="articoli" style="background-color: white;font-family: meteo,sans-serif;word-break: break-word;padding-top: 20px; padding-left: 10px;padding-bottom: 10px;">Campionato Mondiale del Pastore Belga</h5>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3" style=" display: flex; flex-direction: column; padding-top: 70px;" >
+                                            <div style="display: flex;flex-direction: column;padding-left: 30px;">
+                                                <img style="cursor: pointer;" src="https://picsum.photos/id/350/220/123" alt="rubrica">
+                                                <div style="position: relative;">
+                                                    <h5 class="skew-title">WINE & FOOD</h5>
+                                                </div>
+
+                                                <h5 class="articoli" style="background-color: white;font-family: meteo,sans-serif;word-break: break-word;padding-top: 20px; padding-left: 10px;padding-bottom: 10px;">Dai robot ai cibi marziani. Ritorna Food & Science</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="row">
+                                    <div class="col-md-12 nopadding_left nopadding_right" style="padding-top: 30px">
+                                        <div style="background-color: white; display: flex;flex-direction: row;">
+                                            <img style="width:205px; height: 115px; cursor: pointer;" src="img/canale.jpeg" alt="canale whatsapp">
+                                            <div style="display: flex;flex-direction: column;padding-left: 20px; padding-top: 20px;padding-right: 10px;">
+                                                <div style="display: flex;flex-direction: row;  ">
+                                                    <h6 style="color: #073E7C; ">///</h6>
+                                                    <h6 style="padding-left: 5px;padding-bottom: 5px;">WHATSAPP</h6>
+                                                </div>
+                                                <h5 class="articoli" style="font-family: meteo,sans-serif;">Iscriviti al canale WhatsApp de L’Arena e ricevi tutte le notizie in tempo reale</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 nopadding_right nopadding_left"  style="padding-top: 30px">
+                                        <div style="background-color: white; display: flex;flex-direction: row;">
+                                            <img style="cursor: pointer;" src="https://picsum.photos/id/225/293/164" alt="edicola">
+                                            <div style="display: flex;flex-direction: column;padding-left: 20px; padding-top: 20px;padding-right: 10px;">
+                                                <div style="display: flex;flex-direction: row;  ">
+                                                    <h6 style="color: #073E7C; ">///</h6>
+                                                    <h6 style="padding-left: 5px;padding-bottom: 5px;">DOVE TROVARE L'ARENA</h6>
+                                                </div>
+                                                <h5 class="articoli" style="font-family: meteo,sans-serif;">Le edicole aperte domenica 28 aprile a Verona</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 nopadding_right nopadding_left"  style="padding-top: 30px">
+                                        <div style="background-color: white; display: flex;flex-direction: row;">
+                                            <img style="cursor: pointer;" src="https://picsum.photos/id/325/293/164" alt="studio">
+                                            <div style="display: flex;flex-direction: column;padding-left: 20px; padding-top: 20px;padding-right: 10px;">
+                                                <div style="display: flex;flex-direction: row;  ">
+                                                    <h6 style="color: #073E7C; ">///</h6>
+                                                    <h6 style="padding-left: 5px;padding-bottom: 5px;">NUOVO STUDIO</h6>
+                                                </div>
+                                                <h5 class="articoli" style="font-family: meteo,sans-serif;">Pedemontana Veneta, la Regione «rivede» le tariffe per i tratti più brevi</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 nopadding_right nopadding_left"  style="padding-top: 30px">
+                                        <div style="background-color: white; display: flex;flex-direction: row;">
+                                            <img style="cursor: pointer;" src="https://picsum.photos/id/99/293/164" alt="studio">
+                                            <div style="display: flex;flex-direction: column;padding-left: 20px; padding-top: 20px;padding-right: 10px;">
+                                                <div style="display: flex;flex-direction: row;  ">
+                                                    <h6 style="color: #073E7C; ">///</h6>
+                                                    <h6 style="padding-left: 5px;padding-bottom: 5px;">STANGATA</h6>
+                                                </div>
+                                                <h5 class="articoli" style="font-family: meteo,sans-serif;">In autunno nuovo salasso rifiuti: la Tari aumenta del 9,6 per cento in 58 Comuni</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 nopadding_right nopadding_left"  style="padding-top: 30px">
+                                        <div style="background-color: white; display: flex;flex-direction: row;">
+                                            <img style="cursor: pointer;" src="https://picsum.photos/id/112/293/164" alt="studio">
+                                            <div style="display: flex;flex-direction: column;padding-left: 20px; padding-top: 20px;padding-right: 10px;">
+                                                <div style="display: flex;flex-direction: row;  ">
+                                                    <h6 style="color: #F95738; ">///</h6>
+                                                    <h6 style="padding-left: 5px;padding-bottom: 5px;">DAL 21 GIUGNO AL TEATRO ROMANO</h6>
+                                                </div>
+                                                <h5 class="articoli" style="font-family: meteo,sans-serif;">Verona Jazz e Rumors, l'Estate Teatrale Veronese inizia a suon di musica: il programma</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 nopadding_left nopadding_right" style="padding-top: 30px">
+                                        <div style="background-color: white; display: flex;flex-direction: row;">
+                                            <img style=" cursor: pointer;" src="https://picsum.photos/id/156/205/115" alt="canale whatsapp">
+                                            <div style="display: flex;flex-direction: column;padding-left: 20px; padding-top: 20px;padding-right: 10px;">
+                                                <div style="display: flex;flex-direction: row;  ">
+                                                    <h6 style="color: #073E7C; ">///</h6>
+                                                    <h6 style="padding-left: 5px;padding-bottom: 5px;">LA SPERIMENTAZIONE</h6>
+                                                </div>
+                                                <h5 class="articoli" style="font-family: meteo,sans-serif;">Migranti a scuola di edilizia. Poi il contratto nelle imprese</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4" style="padding-left: 30px;">
+                                    <div class="row" style="padding-top: 70px;">
+                                        <div class="col-md-12" style="background-color: #333333; display: flex; justify-content: center; flex-direction: column; padding-left: 30px;padding-right: 30px; padding-bottom: 25px;">
+                                            <img class="sbalzo" style="cursor: pointer;" src="img/arena_sport.jpeg" alt="Arena sport">
+                                            <img class="sbalzo" style="cursor: pointer;" src="img/ultras.jpeg" alt="ultras">
+                                            <h5 class="articoli" style="font-family: meteo,sans-serif; margin-top: -20px; color: white;">Caldiero, un video celebra una stagione memorabile. E domenica tutti allo stadio"</h5>
+                                        </div>
+                                    </div>
+                                <div class="row" style="padding-top: 70px">
+                                    <div class="col-md-12" style="background-color: #E7E4E4; display: flex; justify-content: center; flex-direction: column; padding-left: 30px;padding-right: 30px; padding-bottom: 25px;">
+                                        <img class="sbalzo" style="cursor: pointer;" src="img/curiosita.jpeg" alt="curiosità">
+                                        <img class="sbalzo" style="cursor: pointer;" src="img/vip.jpeg" alt="vip">
+                                        <h5 CLASS="articoli" style="font-family: meteo,sans-serif;">La parodia di Geppi Cucciari sulla discussione tutta maschile sull'aborto da Vespa </h5>
+                                    </div>
+                                </div>
+                                <div class="row" style="padding-top: 70px">
+                                    <div class="col-md-12" style="background-color: #E7E4E4; display: flex; justify-content: center; flex-direction: column; padding-left: 30px;padding-right: 30px; padding-bottom: 25px;">
+                                        <img class="sbalzo" style="cursor: pointer;" src="https://picsum.photos/id/118/248/139" alt="Venezia">
+                                        <div style="display: flex; flex-direction: row;align-items: center; margin-top: -20px">
+                                            <h6 style="color: #073E7C; padding-bottom: 5px;">///</h6>
+                                            <h6 style="padding-left: 5px;">MONDO</h6>
+                                        </div>
+                                        <h5 CLASS="articoli" style="font-family: meteo,sans-serif;">Morta Sabreen, la piccola venuta alla luce dopo che la madre era stata uccisa dalle bombe israeliane </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <footer>
+                <div class="container ">
+                    <div class="row " style="padding-top: 60px;padding-left: 10px; padding-right: 10px;">
+                        <div class="col-md-12  " style="height: 1px; width: 100%; border: 1px dotted black; "></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row" style="margin-bottom: 10px;">
+                        <div class="col-xl-4">
+                            <h3 style="padding-top: 30px;">
+                                <a class="footer_title" href="https://www.larena.it/spazio-lettori/in-edicola" title="In edicola">In Edicola</a>
+                            </h3>
+                            <div class="col-md-12" style="background-color: white; display: flex; justify-content: center; flex-direction: column; padding: 30px;">
+                                <div class="background_gradient" style=" display: flex;justify-content: center; ">
+                                    <img class="img_footer" src="img/footer1.jpeg" alt="guida">
+                                </div>
+                                <h5 style="font-family: meteo,sans-serif; padding-top: 10px;display: flex;justify-content: center;">Alpini sui sentieri del mito </h5>
+                                <div style="display: flex; justify-content: center;">
+                                    <button class="btn_footer1"> Scopri </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4" >
+                            <h3 style="padding-top: 30px;">
+                                <a class="footer_title" href="https://www2.larena.it/publisher/magazine/section/" title="Le riviste">Le Riviste</a>
+                            </h3>
+                            <div class="col-md-12" style="background-color: white; display: flex; justify-content: center; flex-direction: column; padding: 30px;">
+                                <div class="background_gradient" style=" display: flex;justify-content: center; align-items: center; ">
+                                    <img class="img_footer" src="img/footer2.jpg" alt="guida">
+                                </div>
+                                <h5 style="font-family: meteo,sans-serif; padding-top: 10px;display: flex;justify-content: center;text-align: center;">Tra Globalizzazione e frammentazione</h5>
+                                <div style="display: flex; justify-content: center;">
+                                    <button class="btn_footer1"> Scopri </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xl-4">
+                            <h3 style="padding-top: 30px;">
+                                <a class="footer_title" href="https://edicola.larena.it/newsstand/" title="Il quotidiano">Il quotidiano</a>
+                            </h3>
+                            <div class="col-md-12" style="background-color: #073E7C; display: flex; justify-content: center; flex-direction: column; padding: 30px 30px 0 30px;">
+                                <div  style=" display: flex;justify-content: center; ">
+                                    <img  style=" width: 218px; height:auto; " src="img/primapaginafooter.jpeg" alt="guida">
+                                </div>
+                                <div style="display: flex; justify-content: center; padding-top: 10px;">
+                                    <button class="btn_footer2"> Abbonati</button>
+                                </div>
+                                <p style="color: white; display: flex;justify-content: center;align-items: center;padding-top: 10px;">
+                                    Già Abbonato?
+                                    <a class="accedi_footer" href="https://edicola.larena.it/newsstand/?utm_source=Link-Box-IlQuotidiano">Accedi</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" style="width: 100%; border-top: 5px solid black; border-bottom: 1px dotted black; padding:0 10px 10px 10px;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-8">
+                                        <div class="container">
+                                            <div class="row d-flex justify-content-start" style="padding: 20px 0 ">
+                                                <div class="col-2 footer_link">
+                                                  <a href="https://www.gruppoathesis.it/publisher/4998_verona/section/">Pubblicità</a>
+                                                </div>
+                                                <div class="col-2 footer_link">
+                                                    <a href="https://www2.larena.it/publisher/privacy_policy/section/">Privacy</a>
+                                                </div>
+                                                <div class="col-2 footer_link">
+                                                    <a href="#">Cookie</a>
+                                                </div>
+                                                <div class="col-2 footer_link">
+                                                    <a href="#">Consensi</a>
+                                                </div>
+                                                <div class="col-2 footer_link">
+                                                    <a href="https://www2.larena.it/publisher/contatti/section/">Contatti</a>
+                                                </div>
+                                                <div class="col-sm-2 footer_link">
+                                                    <a href="https://www.gruppoathesis.it/" style="text-wrap: nowrap;">Chi Siamo</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 bottom_footer" style="display: flex; flex-direction: row; align-items: center;">
+                                        <div style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; margin-left: 8px;">
+                                            <img class="logo_footer" src="img/whatsblu.png" alt="whatsapp" title="whatsapp">
+                                            <img class="logo_footer" src="img/faceblu.png" alt="facebook" title="facebook">
+                                            <img class="logo_footer" src="img/instablu.png" alt="instagram" title="instagram">
+                                            <img class="logo_footer" src="img/xnero.png" alt="x" title="x">
+                                        </div>
+                                        <div style="width: 10px;"></div>
+                                        <a class="footer_link" href="https://necrologie.larena.it/publisher/necrologi/section/">Necrologie</a>
+                                        <div style="width: 10px;"></div>
+                                        <button class="btn_footer1">Abbonati</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" style="padding-top: 16px ;">
+                            <span style="font-size: 12px;">IL  GRUPPO</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 d-flex justify-content-between" style="padding-top: 14px; padding-bottom: 14px;">
+                            <img class="img_sponsor" src="img/footer/ATHESIS.png" alt="Athesis">
+                            <img class="img_sponsor" src="img/footer/L'ARENA.png" alt="L'Arena" >
+                            <img class="img_sponsor" src="img/footer/VICENZA.png" alt="Vicenza" >
+                            <img class="img_sponsor" src="img/footer/BRESCIAGGIO.png" alt="Bresciaggio" >
+                            <img class="img_sponsor" src="img/footer/MANTOVA.png" alt="Mantova" >
+                            <img class="img_sponsor" src="img/footer/PUBLI.png" alt="Publi" >
+                        </div>
+                        <div class="col-lg-6 d-flex justify-content-between" style="padding-top: 14px; padding-bottom: 14px;">
+                            <img class="img_sponsor" src="img/footer/RADIOVERONA.png" alt="Radio Verona" >
+                            <img class="img_sponsor" src="img/footer/TELEARENA.png" alt="Telearena" >
+                            <img class="img_sponsor" src="img/footer/TELEMANTOVA.png" alt="TeleMantova" >
+                            <img class="img_sponsor" src="img/footer/NERI.png" alt="NeriPozza" >
+                            <img class="img_sponsor" src="img/footer/ACADEMY.png" alt="Academy" >
+                            <img class="img_sponsor" src="img/footer/ZEEEP.png" alt="Zeep" >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span style="font-size: 10px;">Società Athesis S.p.A. – Corso Porta Nuova, 67 – I-37122 Verona (VR) – REA: VR-44853 – Cap. soc. i.v.: 1.768.000 Euro – P.IVA e C.F. 00213960230 <br>Copyright © 2024 – Tutti i diritti riservati</span>
+                        </div>
+                    </div>
+
+                </div>
+            </footer>
+
+            </div>
+
+        </div>
+    </body>
+</html>
