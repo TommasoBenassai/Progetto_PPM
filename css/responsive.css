@@ -36,6 +36,18 @@
     cursor: pointer;
     margin: 0 5px;
 }
+
+.container_articolo{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.whatsapp_banner{
+    width:205px;
+    height: 115px;
+    cursor: pointer;
+}
 @media screen and (max-width: 1110px) {
     .desktop {
         display: none!important;
@@ -68,6 +80,16 @@
     }
     .bottom_footer {
         justify-content: flex-start;
+    }
+    .container_articolo{
+        flex-direction: column;
+    }
+    .container_whatsapp_banner{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 }
 @media screen and (max-width: 830px) {
